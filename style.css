@@ -1,0 +1,157 @@
+body{
+font-family:'Inter',sans-serif;
+background:linear-gradient(135deg,#fde6ef,#f8d8e5);
+margin:0;
+color:#4a2a34;
+overflow-x:hidden;
+}
+
+/* NAV */
+
+nav{
+display:flex;
+justify-content:space-between;
+padding:20px 40px;
+background:white;
+box-shadow:0 6px 20px rgba(0,0,0,0.06);
+}
+
+nav button{
+padding:8px 16px;
+background:#f4a6c1;
+border:none;
+border-radius:20px;
+cursor:pointer;
+}
+
+/* HERO */
+
+.hero{
+text-align:center;
+margin-top:30px;
+}
+
+.heroBtn{
+padding:10px 20px;
+background:#e05a8a;
+border:none;
+color:white;
+border-radius:25px;
+cursor:pointer;
+}
+
+/* SPLIT COLORS */
+
+.blackish{
+color:#2e2e2e;
+}
+
+.pinkish{
+color:#d86a94;
+}
+
+/* CONTAINER */
+
+.container{
+max-width:900px;
+margin:30px auto;
+padding:40px;
+background:white;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* SECTION BUTTON */
+
+.sectionBtn{
+width:100%;
+text-align:left;
+padding:12px;
+margin-top:15px;
+background:#f4a6c1;
+border:none;
+border-radius:10px;
+cursor:pointer;
+font-weight:bold;
+}
+
+/* CONTENT */
+
+.sectionContent{
+display:none;
+padding:15px;
+}
+
+/* PROJECT CARDS */
+
+.projectCard{
+padding:15px;
+margin-top:10px;
+background:#fff;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.08);
+}
+
+/* LINKS */
+
+a{
+color:#e05a8a;
+text-decoration:none;
+}
+
+/* TIMELINE */
+
+.timeline{
+border-left:3px solid #f4a6c1;
+padding-left:20px;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+margin-top:40px;
+padding:20px;
+color:#555;
+}
+
+/* AMOEBIC BACKGROUND */
+
+body::before, body::after{
+content:"";
+position:fixed;
+border-radius:60% 40% 70% 30% / 30% 60% 40% 70%;
+background:rgba(244,166,193,0.25);
+filter:blur(40px);
+z-index:-1;
+}
+
+body::before{
+width:400px;
+height:400px;
+top:10%;
+left:5%;
+}
+
+body::after{
+width:350px;
+height:350px;
+bottom:10%;
+right:10%;
+}
+
+/* BUBBLES */
+
+.bubble{
+position:fixed;
+border:2px solid rgba(215,90,130,0.6);
+background:rgba(255,255,255,0.08);
+border-radius:50%;
+animation:floatBubble linear infinite;
+z-index:-1;
+}
+
+@keyframes floatBubble{
+0%{transform:translateY(0);opacity:0.7;}
+100%{transform:translateY(-120vh);opacity:0;}
+}

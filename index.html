@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Samruddhi Bhaskar Mohite | Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="script.js">
+
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<nav>
+
+<h1 class="title">
+
+<span class="blackish">Samruddhi</span>
+<span class="pinkish">Mohite</span>
+
+</h1>
+
+<div>
+
+<button onclick="showPage('page1')">Page 1</button>
+<button onclick="showPage('page2')">Page 2</button>
+<button onclick="showPage('page3')">Page 3</button>
+
+</div>
+
+</nav>
+
+
+<section class="hero">
+
+<h1>
+
+<span class="blackish">Samruddhi</span>
+<span class="pinkish">Bhaskar Mohite</span>
+
+</h1>
+
+<p>
+
+Computer Engineering Student • Backend Developer • Research Enthusiast
+
+</p>
+
+<button onclick="showPage('page2')" class="heroBtn">
+
+View My Work
+
+</button>
+
+</section>
+
+
+<div class="container">
+
+
+<!-- PAGE 1 -->
+
+<div class="page" id="page1">
+
+<button class="sectionBtn" onclick="toggleSection('personal')">
+
+Personal Information
+
+</button>
+
+<div id="personal" class="sectionContent">
+
+<p>Name: Samruddhi Bhaskar Mohite</p>
+<p>Date of Birth: 27 March 2003</p>
+<p>Email: mohitesamruddhiwork@gmail.com</p>
+<p>Phone: 8421421796</p>
+
+</div>
+
+
+<button class="sectionBtn" onclick="toggleSection('academic')">
+
+Academic Profile
+
+</button>
+
+<div id="academic" class="sectionContent">
+
+<p>College: Savitribai Phule Pune University</p>
+<p>Degree: Bachelor of Engineering</p>
+<p>Branch: Computer Engineering</p>
+<p>Academic Year: Third Year</p>
+
+</div>
+
+
+<button class="sectionBtn" onclick="toggleSection('records')">
+
+Academic Records
+
+</button>
+
+<div id="records" class="sectionContent">
+
+<ul>
+
+<li>SSC – School Details</li>
+<li>HSC – College Details</li>
+<li>Bachelor of Engineering – SPPU</li>
+
+</ul>
+
+</div>
+
+</div>
+
+
+<!-- PAGE 2 -->
+
+<div class="page" id="page2">
+
+<button class="sectionBtn" onclick="toggleSection('projects')">
+
+Projects
+
+</button>
+
+<div id="projects" class="sectionContent">
+
+<div class="projectCard">
+
+<h3>Gmail Clone Backend</h3>
+
+<p>
+
+Backend system using  
+
+<a href="https://nestjs.com" target="_blank">NestJS</a>  
+
+and  
+
+<a href="https://www.mongodb.com" target="_blank">MongoDB</a>
+
+</p>
+
+</div>
+
+
+<div class="projectCard">
+
+<h3>YouTube Clone</h3>
+
+<p>
+
+Developed during the  
+
+<a href="https://nullclass.com" target="_blank">NullClass</a>  
+
+internship.
+
+</p>
+
+</div>
+
+</div>
+
+
+<button class="sectionBtn" onclick="toggleSection('skills')">
+
+Technical Skills
+
+</button>
+
+<div id="skills" class="sectionContent">
+
+<ul>
+
+<li>JavaScript</li>
+<li>Python</li>
+<li>C++</li>
+<li>Node.js</li>
+<li>MongoDB</li>
+
+</ul>
+
+</div>
+
+
+<button class="sectionBtn" onclick="toggleSection('research')">
+
+Research Interests
+
+</button>
+
+<div id="research" class="sectionContent">
+
+<ul>
+
+<li>
+<a href="https://en.wikipedia.org/wiki/Artificial_intelligence" target="_blank">
+Artificial Intelligence
+</a>
+</li>
+
+<li>
+<a href="https://en.wikipedia.org/wiki/Distributed_computing" target="_blank">
+Distributed Systems
+</a>
+</li>
+
+<li>Backend Architecture</li>
+
+</ul>
+
+</div>
+
+</div>
+
+
+<!-- PAGE 3 -->
+
+<div class="page" id="page3">
+
+<button class="sectionBtn" onclick="toggleSection('internships')">
+
+Internship Experience
+
+</button>
+
+<div id="internships" class="sectionContent">
+
+<div class="timeline">
+
+<p>Techkriti IIT Kanpur — Python Development Intern</p>
+<p>Studio — Web Development Intern</p>
+<p>Hruta Solutions — Full Stack Web Development Intern</p>
+<p>NullClass — Web Development Intern</p>
+
+</div>
+
+</div>
+
+
+<button class="sectionBtn" onclick="toggleSection('languages')">
+
+Languages Known
+
+</button>
+
+<div id="languages" class="sectionContent">
+
+<ul>
+
+<li>English</li>
+<li>Hindi</li>
+<li>Marathi</li>
+
+</ul>
+
+</div>
+
+
+<button class="sectionBtn" onclick="toggleSection('goals')">
+
+Academic Goals
+
+</button>
+
+<div id="goals" class="sectionContent">
+
+<p>
+
+Aspiring to pursue advanced studies in Computer Science at global
+universities such as MIT or Harvard and contribute to research in
+Artificial Intelligence and scalable software systems.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+
+<footer>
+
+<p>
+
+© 2026 Samruddhi Bhaskar Mohite
+
+</p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
